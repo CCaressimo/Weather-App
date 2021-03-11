@@ -1,0 +1,48 @@
+body {
+    background-color: #4A4238;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+button #button-addon2{
+    color:  #4D5359;
+}
+
+button #button-addon2:hover {
+    color:  #4A4238
+}
+
+.container {
+    margin: auto;
+    margin-top: 25%;
+    height: 425px;
+    width: 425px;
+    background-color: #4a93cfc9;
+    background-image: url('https://i.imgur.com/535dy7i.jpg') 45%;
+    opacity: 85%;
+    text-align: center;
+    border-radius: 15%;
+    box-shadow: 5px 5px 5px 5px #4D5359;
+    transition: .5s;
+}
+
+p {
+    font-size: 26px;
+    margin: -1px;
+}
+
+p:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+img#icon {
+    width: 20%;
+    transition: .5s;
+}
+
+img:hover {
+    transform: translateY(-5px);
+    transition: .5s;
+}

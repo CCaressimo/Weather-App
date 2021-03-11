@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="bg-image"></div>
+
+    <div class="container">
+
+        <h1> Weather App </h1>
+        <form>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search City" aria-label="Recipient's username"
+                    aria-describedby="button-addon2" id="weatherinput">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-dark" type="button" id="button-addon2">Search</button>
+                </div>
+            </div>
+        </form>
+
+        <img id="icon" src="">
+        <p id="main"></p>
+        <p id="cityName"></p>
+        <p id="temp"></p>
+        <p id="pressure"></p>
+        <p id="humidity"></p>
+        <p id="wind"></p>
+        
+
+    </div>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
