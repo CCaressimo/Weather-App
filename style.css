@@ -1,35 +1,18 @@
+h1 {
+     font-family: 'Lobster Two', cursive;
+} 
+
+#cityname {
+    font-size: 20px;
+}
+
 body {
-    background-color: #4A4238;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-button #button-addon2{
-    color:  #4D5359;
-}
-
-button #button-addon2:hover {
-    color:  #4A4238
-}
-
-.container {
-    margin: auto;
-    margin-top: 25%;
-    height: 425px;
-    width: 425px;
-    background-color: #4a93cfc9;
-    background-image: url('https://i.imgur.com/535dy7i.jpg') 45%;
-    opacity: 85%;
-    text-align: center;
-    border-radius: 15%;
-    box-shadow: 5px 5px 5px 5px #4D5359;
-    transition: .5s;
+    background-color: #1E1E24;
 }
 
 p {
-    font-size: 26px;
-    margin: -1px;
+   font-family: 'Poppins', sans-serif;
+   transition: .5s;
 }
 
 p:hover {
@@ -37,6 +20,27 @@ p:hover {
     transition: .5s;
 }
 
+#box {
+    margin: auto;
+    margin-top: 25%;
+    height: 450px;
+    width: 320px;
+    opacity: 85%;
+    background-color: #F7EBE8;
+    text-align: center;
+    border-radius: 1%;
+    border: solid 5px rgb(32, 32, 32);
+    box-shadow:  10px 10px 10px 10px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    transition: .5s;
+}
+
+p#temp {
+    transform: translateY(-5px);
+    transition: .5s;
+}
 img#icon {
     width: 20%;
     transition: .5s;
@@ -46,3 +50,23 @@ img:hover {
     transform: translateY(-5px);
     transition: .5s;
 }
+
+#cityname {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#temp {
+    font-size: 27px;
+    display: inline;
+}
+
+#humidity,
+
+#wind,
+
+#feelsLike,
+
+#pressure {
+            line-height: 1;
+        }

@@ -11,34 +11,38 @@
 </head>
 
 <body>
-
-    <div class="bg-image"></div>
-
-    <div class="container">
-
-        <h1> Weather App </h1>
-        <form>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Search City" aria-label="Recipient's username"
-                    aria-describedby="button-addon2" id="weatherinput">
-                <div class="input-group-append">
-                    <button class="btn btn-outline-dark" type="button" id="button-addon2">Search</button>
+    <div id="box">
+        <br>
+        <h1 style="text-align: center;"> Weather App </h1>
+        <div class="container">
+            <form>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Search Location"
+                        aria-label="Recipient's username" aria-describedby="button-addon2" id="weatherinput">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-dark" type="button" id="button-addon2">Search</button>
+                    </div>
                 </div>
-            </div>
-        </form>
+            </form>
 
-        <img id="icon" src="">
-        <p id="main"></p>
-        <p id="cityName"></p>
-        <p id="temp"></p>
-        <p id="pressure"></p>
-        <p id="humidity"></p>
-        <p id="wind"></p>
-        
+            <strong>
+                <p id="cityname"></p>
+            </strong>
 
+            <img id="icon" src="">
+            <p id="temp"></p>
+ 
+            <p id="forecast"> </p>
+            <p id="feelsLike"></p>
+            <p id="wind"></p>
+            <p id="pressure"></p>
+            <p id="humidity"></p>
+            <br><br>
+        </div>
+
+        <script src="config.js"></script>
+        <script src="script.js"></script>
     </div>
-    <script src="config.js"></script>
-    <script src="script.js"></script>
 </body>
 
 </html>
